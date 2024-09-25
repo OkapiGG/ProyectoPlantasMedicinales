@@ -7,6 +7,7 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: white;
+    overflow: hidden;
 }
 
 .container {
@@ -45,8 +46,12 @@ body, html {
 }
 
 .welcome-container h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 2rem; /* Tamaño de fuente más grande */
+    color: black; /* Color verde */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra de texto */
+    margin-bottom: 20px;
 }
 
 #welcome-container button {
@@ -58,4 +63,20 @@ body, html {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.next-button {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 128, 0, 0.5); /* Verde */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #028a50; /* Verde más oscuro */
 }
