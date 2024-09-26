@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', () => {
             const plantId = card.id;
             switch (plantId) {
                 case 'hierba':
-                    window.location.href = 'infoHierbaBuena.html';
+                    window.location.href = '/html/infoHierbaBuena.html';
                     break;
                 case 'albahaca':
-                    window.location.href = 'infoAlbahaca.html';
+                    window.location.href = '/html/infoAlbahaca.html';
                     break;
                 // Agrega más casos para otras plantas
                 default:
