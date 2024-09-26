@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const nextButton = document.getElementById('next-button');
+    const nextButton = document.getElementById('nextButton');
     const logoContainer = document.querySelector('.logo-container');
     const welcomeContainer = document.querySelector('.welcome-container');
 
