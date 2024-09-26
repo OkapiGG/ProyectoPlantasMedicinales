@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const nextButton = document.getElementById('nextButton');
+    const nextButton = document.getElementById('next-button');
     const logoContainer = document.querySelector('.logo-container');
     const welcomeContainer = document.querySelector('.welcome-container');
 
@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
         welcomeContainer.style.transform = 'translate(-50%, -250%)';
         setTimeout(() => {
             window.location.href = 'menuPlantas.html'; // Cambia esto a la ruta de tu siguiente vista
-        }, 500);
+        }, 25);
     });
 });
