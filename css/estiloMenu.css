@@ -3,30 +3,31 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
+    font-family: Arial, sans-serif;
 }
 
 .container {
-    position: relative;
     width: 100%;
     height: 100%;
-}
-
-.header {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    overflow-y: auto; /* Habilita scroll para el contenido */
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
+.header {
+    position: sticky; /* Fija el título en la parte superior */
+    top: 0;
+    width: 95%;
+    background-color: white; /* Fondo blanco */
+    z-index: 10; /* Asegura que el título esté sobre otros elementos */
+    padding: 20px 0;
+    text-align: center;
+}
+
 .header h1 {
-    font-size: 2rem;
-    font-family: Arial, sans-serif;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -34,43 +35,43 @@ body, html {
     color: green;
 }
 
-
-
 .back-icon {
     width: 40px;
     cursor: pointer;
     position: absolute;
-    top: 30%; /* Aproximadamente 30px en una pantalla de 1080px de altura */
-    left: -40%; 
-    background: none;
-    border: none;
-    cursor: pointer;
+    top: 50px; /* Ajusta la posición del botón de retroceso */
+    left: 10px; /* Alinea a la izquierda */
 }
 
-
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las tarjetas */
+    margin-top: 10px; /* Asegura que las tarjetas queden debajo del título */
+    padding-bottom: 40px; /* Espacio al final para el scroll */
 }
 
 .plant-card {
     margin: 15px;
-    padding: 0px;
+    padding: 10px;
     background-color: rgba(0, 128, 0, 0.3);
-    border-radius: 30px;
-    display: inline-block;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     cursor: pointer;
+    width: 150px;
+    text-align: center;
 }
 
 .plant-card img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 .plant-card p {
+    margin-top: 10px;
     font-size: 1.25rem;
     font-weight: bold;
 }
