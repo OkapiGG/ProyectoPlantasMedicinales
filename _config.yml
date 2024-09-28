@@ -1,0 +1,15 @@
+# Configuración básica para Jekyll en GitHub Pages
+title: "Mi sitio en GitHub Pages"
+description: "Este es un ejemplo de sitio en GitHub Pages usando Jekyll"
+baseurl: "/<ProyectoPlantasMedicinales>" # Reemplaza <nombre-repo> por el nombre real de tu repositorio
+url: "https://<OkapiGG>.github.io" # Reemplaza <tu-usuario> con tu nombre de usuario en GitHub
+
+# Excluir archivos o carpetas que no deben ser parte del sitio
+exclude:
+  - "README.md"
+  - "node_modules"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+# Configuración del tema
+theme: jekyll-theme-minimal  # Puedes cambiar el tema aquí
