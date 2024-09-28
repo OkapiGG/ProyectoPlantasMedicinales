@@ -1,0 +1,98 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-card {
+    width: 70%;
+    height: 40%;
+    background-color: rgba(0, 128, 0, 0.3);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    margin-bottom: 20px; /* Espacio entre la tarjeta y el texto */
+    position: relative;
+}
+
+.plant-image {
+    width: 210px;
+    height: auto;
+}
+
+.text-columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px; /* Espacio entre los textos y el contenido */
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.column.green {
+    color: rgba(0, 128, 0, 0.5);
+}
+
+.scroll-content {  
+    width: 100%;
+    max-height: 39%; /* Altura ajustada según el diseño Swift */
+    overflow-y: auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 24px;            /* Tamaño de fuente */
+    font-weight: bold;         /* Negrita */
+    color: rgba(0, 128, 0, 0.7); /* Color verde oscuro */
+    margin-bottom: 10px;       /* Espacio debajo del encabezado */
+    text-align: center;        /* Centrar el texto */
+    text-transform: uppercase;  /* Convertir el texto a mayúsculas */
+    letter-spacing: 1px;       /* Espaciado entre letras */
+    font-family: 'Arial', sans-serif; /* Tipo de letra */
+}
+
+.section p {
+    margin-top: 10px; /* Espacio entre el título y el texto */
+}
+
+.back-button {
+    background: none; /* Elimina el fondo del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    position: absolute; /* Para posicionarlo en la esquina */
+    top: -10px; /* Distancia desde la parte superior */
+    left: -10px; /* Distancia desde la izquierda */
+}
+
+.back-icon {
+    width: 40px;
+    height: auto; /* Mantiene la proporción de la imagen */
+}
