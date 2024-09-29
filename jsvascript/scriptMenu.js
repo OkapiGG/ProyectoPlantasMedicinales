@@ -11,19 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
             const plantId = card.id;
             switch (plantId) {
                 case 'hierba':
-                    window.location.href = '/html/infoHierbaBuena.html';
+                    window.location.href = '../html/infoHierbaBuena.html';
                     break;
                 case 'albahaca':
-                    window.location.href = '/html/infoAlbahaca.html';
+                    window.location.href = '../html/infoAlbahaca.html';
                     break;
                 case 'manzanilla':
-                    window.location.href = '/html/infoManzanilla.html';
+                    window.location.href = '../html/infoManzanilla.html';
                 break;
                 case 'romero':
-                    window.location.href = '/html/infoRomero.html';
+                    window.location.href = '../html/infoRomero.html';
                 break;
                 case 'sabila':
-                    window.location.href = '/html/infoSabila.html';
+                    window.location.href = '../html/infoSabila.html';
                 break;       
                 // Agrega más casos para otras plantas
                 default:
