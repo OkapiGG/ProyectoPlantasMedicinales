@@ -24,7 +24,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
                 case 'sabila':
                     window.location.href = '../html/infoSabila.html';
-                break;       
+                break;  
+                case 'ajo':
+                  window.location.href = '../html/infoAjo.html';
+                break;     
+                case 'Canela':
+                  window.location.href = '../html/infoCanela.html';
+                break;    
+                case 'ChicoZapote':
+                  window.location.href = '../html/infoChicoZapote.html';
+                break;
+                case 'coco':
+                  window.location.href = '../html/infoCoco.html';
+                break;
+                case 'naranja':
+                    window.location.href = '../html/infoNaranja.html';
+                  break;
+                  case 'maiz':
+                    window.location.href = '../html/infoMaiz.html';
+                  break;
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);
