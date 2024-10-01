@@ -8,14 +8,14 @@ body, html {
     align-items: center;
     background-color: white;
     font-family: Arial, sans-serif;
-    align-content: flex-end;
-    flex-direction: column-reverse;
+    flex-direction: column;
 }
 
 .container {
     position: relative;
     width: 90%;
     max-width: 800px;
+    overflow: hidden;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -24,19 +24,20 @@ body, html {
 
 .info-card {
     width: 70%;
-    height: 40%;
+    height: 35%;
     background-color: rgba(0, 128, 0, 0.3);
     border-radius: 30px;
     display: flex;
     justify-content: center; /* Centra la imagen horizontalmente */
     align-items: center; /* Centra la imagen verticalmente */
-    margin-bottom: 20px; /* Espacio entre la tarjeta y el texto */
+    margin-bottom: 20px;
+    margin-top: 20px;
     position: relative;
 }
 
 .plant-image {
-    width: 210px;
-    height: auto;
+    width: 80%;
+    height: 100%;
 }
 
 .text-columns {
@@ -90,11 +91,28 @@ body, html {
     border: none; /* Elimina el borde del botón */
     cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
     position: absolute; /* Para posicionarlo en la esquina */
-    top: 0px; /* Distancia desde la parte superior */
+    top: 40px; /* Distancia desde la parte superior */
     left: -10px; /* Distancia desde la izquierda */
+    display: none;
 }
 
 .back-icon {
     width: 40px;
     height: auto; /* Mantiene la proporción de la imagen */
+}
+
+@media (min-width: 769px) {
+    .info-card {
+        margin-top: 10px; /* Añadir espacio superior para pantallas más grandes */
+        width: 40%;
+        height: 35%;
+    }
+
+    .plant-image {
+        max-width: 250px; /* Imagen más grande en pantallas grandes */
+    }
+
+    .scroll-content {
+        max-height: 300px; /* Aumentar el área de scroll */
+    }
 }

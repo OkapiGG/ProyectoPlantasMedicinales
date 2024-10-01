@@ -24,10 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
                 case 'sabila':
                     window.location.href = '../html/infoSabila.html';
-                break;  
+                break; 
                 case 'ajo':
                   window.location.href = '../html/infoAjo.html';
-                break;     
+                break;  
+                case 'maiz':
+                    window.location.href = '../html/infoMaiz.html';
+                break;    
                 case 'Canela':
                   window.location.href = '../html/infoCanela.html';
                 break;    
@@ -40,9 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'naranja':
                     window.location.href = '../html/infoNaranja.html';
                   break;
-                  case 'maiz':
-                    window.location.href = '../html/infoMaiz.html';
-                  break;
+                  
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);
