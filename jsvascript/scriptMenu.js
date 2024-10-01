@@ -43,6 +43,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'naranja':
                     window.location.href = '../html/infoNaranja.html';
                 break;
+                case 'oregano':
+                    window.location.href = '../html/infoOregano.html';
+                break;
+                case 'limon':
+                    window.location.href = '../html/infoLimon.html';
+                break;
                   
                 // Agrega más casos para otras plantas
                 default:
