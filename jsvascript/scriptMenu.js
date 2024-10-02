@@ -49,7 +49,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'Tulipan':
                     window.location.href = '../html/infoTulipan.html';
                 break;
-                  
+                case 'Maguey':
+                    window.location.href = '../html/infoMagueyMorado.html';
+                break;
+                case 'colaborrego':
+                    window.location.href = '../html/infoColaBorrego.html';
+                break;   
+                case 'platano':
+                    window.location.href = '../html/infoPlatano.html';
+                break;                
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);
