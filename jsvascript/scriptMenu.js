@@ -75,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 break; 
                 case 'Yaca':
                     window.location.href = '../html/infoYaca.html';
+                break; 
+                case 'Guayaba':
+                    window.location.href = '../html/infoGuayaba.html';
                 break;                                
                 // Agrega más casos para otras plantas
                 default:
