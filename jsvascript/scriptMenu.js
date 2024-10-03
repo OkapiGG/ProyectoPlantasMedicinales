@@ -57,7 +57,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;   
                 case 'platano':
                     window.location.href = '../html/infoPlatano.html';
-                break;                
+                break;
+                case 'ajenjo':
+                    window.location.href = '../html/infoAjenjo.html';
+                break; 
+                case 'cafe':
+                    window.location.href = '../html/infoCafe.html';
+                break;  
+                case 'Moringa':
+                    window.location.href = '../html/infoMoringa.html';
+                break;
+                case 'Paterna':
+                    window.location.href = '../html/infoPaterna.html';
+                break;  
+                case 'tomatearbol':
+                    window.location.href = '../html/infoTomateArbol.html';
+                break;                                
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);
