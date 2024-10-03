@@ -72,6 +72,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;  
                 case 'Tomate':
                     window.location.href = '../html/infoTomateArbol.html';
+                break; 
+                case 'Yaca':
+                    window.location.href = '../html/infoYaca.html';
                 break;                                
                 // Agrega más casos para otras plantas
                 default:
