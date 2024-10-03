@@ -75,6 +75,7 @@ body, html {
     border-radius: 10px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.2);
 }
 
 .next-button:hover {

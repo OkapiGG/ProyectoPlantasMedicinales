@@ -39,7 +39,7 @@ body, html {
     width: 40px;
     cursor: pointer;
     position: absolute;
-    top: 50px; /* Ajusta la posición del botón de retroceso */
+    top: 10px; /* Ajusta la posición del botón de retroceso */
     left: 10px; /* Alinea a la izquierda */
     display: none;
 }
@@ -64,6 +64,7 @@ body, html {
     cursor: pointer;
     width: 150px;
     text-align: center;
+    box-shadow: 10px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
 .plant-card img {
