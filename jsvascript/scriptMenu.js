@@ -36,10 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;    
                 case 'coco':
                   window.location.href = '../html/infoCoco.html';
-                break;
-                case 'chicoZapote':
-                  window.location.href = '../html/infoChicoZapote.html';
-                break;
+                break;                
                 case 'naranja':
                     window.location.href = '../html/infoNaranja.html';
                 break;
@@ -49,7 +46,33 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'limon':
                     window.location.href = '../html/infoLimon.html';
                 break;
-                  
+                case 'Tulipan':
+                    window.location.href = '../html/infoTulipan.html';
+                break;
+                case 'Maguey':
+                    window.location.href = '../html/infoMagueyMorado.html';
+                break;
+                case 'colaborrego':
+                    window.location.href = '../html/infoColaBorrego.html';
+                break;   
+                case 'platano':
+                    window.location.href = '../html/infoPlatano.html';
+                break;
+                case 'ajenjo':
+                    window.location.href = '../html/infoAjenjo.html';
+                break; 
+                case 'cafe':
+                    window.location.href = '../html/infoCafe.html';
+                break;  
+                case 'Moringa':
+                    window.location.href = '../html/infoMoringa.html';
+                break;
+                case 'Paterna':
+                    window.location.href = '../html/infoPaterna.html';
+                break;  
+                case 'tomatearbol':
+                    window.location.href = '../html/infoTomateArbol.html';
+                break;                                
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);

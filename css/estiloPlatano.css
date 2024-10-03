@@ -25,7 +25,7 @@ body, html {
 .info-card {
     width: 70%;
     height: 35%;
-    background-color: rgba(221, 158, 21, 0.705);
+    background-color: rgba(143, 141, 60, 0.5);
     border-radius: 30px;
     display: flex;
     justify-content: center; /* Centra la imagen horizontalmente */

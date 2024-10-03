@@ -25,7 +25,7 @@ body, html {
 .info-card {
     width: 70%;
     height: 35%;
-    background-color: rgba(0, 128, 0, 0.3);
+    background-color: rgba(13, 139, 13, 0.555);
     border-radius: 30px;
     display: flex;
     justify-content: center; /* Centra la imagen horizontalmente */
@@ -36,8 +36,8 @@ body, html {
 }
 
 .plant-image {
-    width: 80%;
-    height: 100%;
+    width: 70%;
+    height: 85%;
 }
 
 .text-columns {
