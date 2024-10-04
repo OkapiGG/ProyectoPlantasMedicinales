@@ -33,10 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;    
                 case 'canela':
                   window.location.href = '../html/infoCanela.html';
-                break;    
-                case 'Coco':
-                  window.location.href = '../html/infoCoco.html';
-                break;                
+                break;                                  
                 case 'naranja':
                     window.location.href = '../html/infoNaranja.html';
                 break;
@@ -78,6 +75,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 break; 
                 case 'Guayaba':
                     window.location.href = '../html/infoGuayaba.html';
+                break;
+                case 'coco':
+                    window.location.href = '../html/infoCoco.html';
                 break;                                
                 // Agrega más casos para otras plantas
                 default:
