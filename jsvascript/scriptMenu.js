@@ -96,7 +96,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
                 case 'Epazote':
                     window.location.href = '../html/infoEpazote.html';
-                break;                                         
+                break; 
+                case 'granada':
+                    window.location.href = '../html/infoGranada.html';
+                break;
+                case 'calabaza':
+                    window.location.href = '../html/infoCalabaza.html';
+                break;
+                case 'mango':
+                    window.location.href = '../html/infoMango.html';
+                break;  
+                case 'noni':
+                    window.location.href = '../html/infoNoni.html';
+                break;  
+                case 'avena':
+                    window.location.href = '../html/infoAvena.html';
+                break;                                    
                 // Agrega más casos para otras plantas
                 default:
                     console.log(`No se encontró la vista para ${plantId}`);
