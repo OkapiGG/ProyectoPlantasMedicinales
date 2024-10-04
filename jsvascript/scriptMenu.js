@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'canela':
                   window.location.href = '../html/infoCanela.html';
                 break;    
-                case 'coco':
+                case 'Coco':
                   window.location.href = '../html/infoCoco.html';
                 break;                
                 case 'naranja':
