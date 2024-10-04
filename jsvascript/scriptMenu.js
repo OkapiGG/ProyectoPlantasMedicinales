@@ -73,6 +73,21 @@ document.addEventListener('DOMContentLoaded', () => {
                 case 'Yaca':
                     window.location.href = '../html/infoYaca.html';
                 break; 
+                case 'lavanda':
+                    window.location.href = '../html/infoLavanda.html';
+                break;
+                case 'jengibre':
+                    window.location.href = '../html/infoJengibre.html';
+                break;  
+                case 'capulin':
+                    window.location.href = '../html/infoCapulin.html';
+                break;
+                case 'caulote':
+                    window.location.href = '../html/infoCaulote.html';
+                break; 
+                case 'chayote':
+                    window.location.href = '../html/infoChayote.html';
+                break;                            
                 case 'Guayaba':
                     window.location.href = '../html/infoGuayaba.html';
                 break;
